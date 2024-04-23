@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+</head>
+<body>
+<script>
+
+ /*push*/
+
+ const students = ["Aditi" , "Pratiksha" , "Rutuja" , "Rohan"];
+ console.log(students);
+ students.push("Sakshi");
+ console.log(students); 
+
+ /*pop*/
+
+ const colours = ["red" , "blue" , "yellow" , "green" , "orange" , "Black"];
+ console.log(colours);
+ colours.pop();
+ console.log(colours);
+
+ /*unshift*/
+
+ const flowers = ["Rose" , "Lotus" , "Hibiscus" , "Sunflower"];
+ console.log(flowers);
+ flowers.unshift("Lily");
+ console.log(flowers);
+
+ /*shift*/
+
+ const fruits = ["Apple" , "Mango" , "Banana" , "Lemon" , "orange" , "Papaya"];
+ console.log(fruits);
+ fruits.shift();
+ console.log(fruits);
+
+ /*splice*/
+
+ const animals = ["Tiger" , "Rabbit" , "Fox" , "Bear" , "Zebra" , "Deer"];
+ console.log(animals);
+ animals.splice(2 , 2 , "Elephant" , "Giraffe" , "Camel");
+ console.log(animals);
+
+ /*join*/
+ const stud = ["Aditi" , "Pratiksha" , "Rutuja" , "Rohan"];
+ console.log(stud);
+ console.log(stud.join("@"));
+
+ /*reverse*/
+
+ const animal = ["Tiger" , "Rabbit" , "Fox" , "Bear" , "Zebra" , "Deer"];
+ console.log(animal);
+ animal.reverse();
+ console.log(animal);
+
+ /*sort*/
+
+ const ani = ["Tiger" , "Rabbit" , "Fox" , "Bear" , "Zebra" , "Deer"];
+ console.log(ani);
+ ani.sort();
+ console.log(ani);
+
+ /*indexOf*/
+
+ const flower = ["Rose" , "Lotus" , "Hibiscus" , "Sunflower"];
+ console.log(flower);
+ const index = flower.indexOf("Hibiscus");
+ console.log(index);
+
+ /*includes*/
+
+ const fruit = ["Apple" , "Mango" , "Banana" , "Lemon" , "orange" , "Papaya"];
+ console.log(fruit);
+ console.log(fruit.includes("Lemon"));
+ console.log(fruit.includes("Pineapple"));
+
+ /*length*/
+
+const numbers = [50 , 33 , 25 , 40 , 63 , 20]
+ const count = numbers.length;
+ console.log(`Length of Number : ${count}`);
+
+</script>
+</body>
+</html>
